@@ -17,27 +17,27 @@ document.getElementById('greetBtn').addEventListener('click', function() {
     const h = document.getElementById("main message");
     const video = document.getElementById("video");
     if(x ==  0){
-        btn.style.right = "60%";
+        btn.style.right = "10%";
         img.src = "images/chemsHalal.webp";
         h.innerText = "هاي شنو! ارجع دوسها";
         hide.style.display="none"
     }else if(x == 1){
-        btn.style.top = "40%";
+        btn.style.top = "0%";
         img.src = "images/chemsBtn.jpg";
         h.innerText = "يعني انت صدك تحجي؟ دوسها عمي";
     }
     else if(x == 2){
-        btn.style.right = "10%";
+        btn.style.top = "50%";
         img.src = "images/chems.png";
         h.innerText = "حالتك هسة ⬇️⬇️";
     }else if(x == 3){
-        btn.style.top = "10%";
+        btn.style.top = "70%";
         img.src = "images/waiting.jpg";
         h.innerText = "اني وجاي انتظرك تخلص";
     } else if(x == 4){
         img.src = "images/you.jpg";
         h.innerText = "انت وجاي تنتظر هاي السالفة شوكت تخلص";
-        btn.style.top = "50%";
+        btn.style.top = "60%";
         btn.style.right = "50%";
     }else if(x == 5){
         img.style.display = "none"
