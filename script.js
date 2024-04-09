@@ -44,7 +44,7 @@ document.getElementById('greetBtn').addEventListener('click', function() {
         h.style.display = "none"
         btn.style.display = "none"
         video.style = "top:50%; right:50%;"
-        video.innerHTML = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UwBLTVqKPOI?si=cGCiXImXN8a-kA8e&amp;start=21\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        video.innerHTML = "<iframe class=\"video-container\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/UwBLTVqKPOI?si=cGCiXImXN8a-kA8e&amp;start=21\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
 
     }
     x += 1
